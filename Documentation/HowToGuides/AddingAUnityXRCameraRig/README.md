@@ -30,7 +30,7 @@ Delete the `Main Camera` GameObject from the Unity Hierarchy window as the `Came
 
 ### Step 3
 
-Select the `CameraRigs.UnityXR` GameObject in the Hierarchy window and change the `Unity XR Configuration` component to suit your Tracking Space requirements.
+Select the `CameraRigs.UnityXR` GameObject in the Hierarchy window and change the `Unity XR Configurator` component to suit your Tracking Space requirements.
 
 * Ensure the `Tracking Space Type` is set to:
   * `Room Scale` for XR devices that support 6 degrees of freedom tracking (the ability to move around your play area).

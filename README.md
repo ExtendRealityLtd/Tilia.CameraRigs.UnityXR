@@ -1,6 +1,6 @@
 [![Tilia logo][Tilia-Image]](#)
 
-> ### CameraRigs UnityXR
+> ### CameraRigs -> UnityXR
 > A camera rig prefab utilizing the UnityXR framework.
 
 [![Release][Version-Release]][Releases]
