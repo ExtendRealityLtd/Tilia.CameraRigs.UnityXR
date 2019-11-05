@@ -1,5 +1,14 @@
 # Changelog
 
+### [1.0.1](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.0.0...v1.0.1) (2019-11-05)
+
+#### Bug Fixes
+
+* **README.md:** add separator between package namespace and title ([d6992a0](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/commit/d6992a08f3a9868080e64e7bfe69f1e2dd8e653d))
+  > Using the `Namespace -> Title` format makes it easier and clearer to understand the separation between the project namespace and the specific project tile.
+  > 
+  > The outline colour on images has also been changed to magenta as this seems to stand out the best on a range of devices.
+
 ## 1.0.0 (2019-10-29)
 
 #### Features
