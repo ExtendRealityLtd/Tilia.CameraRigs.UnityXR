@@ -181,8 +181,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f27fc0668d79644c93af545a243c86a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  source: {fileID: 0}
-  relativeTo: {fileID: 1351350362042343500}
+  source: {fileID: 1351350362042343500}
+  relativeTo: {fileID: 6707005887722074733}
   isEstimating: 1
   velocityAverageFrames: 5
   angularVelocityAverageFrames: 10
