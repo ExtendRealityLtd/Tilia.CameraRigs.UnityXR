@@ -1,5 +1,14 @@
 # Changelog
 
+### [1.0.3](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.0.2...v1.0.3) (2019-11-06)
+
+#### Bug Fixes
+
+* **prefab:** provide correct velocity source properties ([bc5d867](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/commit/bc5d867a60b0972845397361b460d974a3ba94df))
+  > The Source and RelativeTo properties on the RightHandAnchor AverageVelocityEstimator were set to the incorrect references.
+  > 
+  > These have now been updated to the correct reference.
+
 ### [1.0.2](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.0.1...v1.0.2) (2019-11-05)
 
 #### Miscellaneous Chores
