@@ -1,5 +1,14 @@
 # Changelog
 
+### [1.0.5](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.0.4...v1.0.5) (2019-11-07)
+
+#### Miscellaneous Chores
+
+* **deps:** bump io.extendreality.zinnia.unity from 1.7.0 to 1.8.0 ([299f2b3](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/commit/299f2b3ddfec03d23b47cc3f47ed0bb78662d5d4))
+  > Bumps [io.extendreality.zinnia.unity](https://github.com/ExtendRealityLtd/Zinnia.Unity) from 1.7.0 to 1.8.0. - [Release notes](https://github.com/ExtendRealityLtd/Zinnia.Unity/releases) - [Changelog](https://github.com/ExtendRealityLtd/Zinnia.Unity/blob/master/CHANGELOG.md) - [Commits](https://github.com/ExtendRealityLtd/Zinnia.Unity/compare/v1.7.0...v1.8.0)
+  > 
+  > Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+
 ### [1.0.4](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.0.3...v1.0.4) (2019-11-07)
 
 #### Bug Fixes
