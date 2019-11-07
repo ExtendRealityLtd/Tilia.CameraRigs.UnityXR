@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.4](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.0.3...v1.0.4) (2019-11-07)
+
+#### Bug Fixes
+
+* **HowToGuides:** provide correct package name in installation guide ([1766f62](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/commit/1766f62b3be396321044e1ef95ae1a96d445ce14))
+  > The package name does not include dots and therefore should be written without any dot separators.
+
 ### [1.0.3](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.0.2...v1.0.3) (2019-11-06)
 
 #### Bug Fixes
