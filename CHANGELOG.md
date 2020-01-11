@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.9](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.0.8...v1.0.9) (2020-01-11)
+
+#### Bug Fixes
+
+* **Prefabs:** tag camera as MainCamera ([9b6ab19](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/commit/9b6ab19b41754b831ea72f2c5ff41652298a3341))
+  > The camera within the rig has now been tagged with the MainCamera tag as it would be considered the main camera in the scene by default.
+
 ### [1.0.8](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.0.7...v1.0.8) (2020-01-02)
 
 #### Miscellaneous Chores
