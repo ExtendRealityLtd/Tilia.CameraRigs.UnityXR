@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.0.12...v1.1.0) (2020-04-09)
+
+#### Features
+
+* **CameraRig:** add haptics to rig ([6d2fd4a](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/commit/6d2fd4a747079d2ef7a66345e1e3c3ee7442c7e3))
+  > The TrackedAlias now allows for haptics to be set for the left and right controller so the default XRNode haptics have been added to the camera rig so they will be passed into the tracked alias.
+
 ### [1.0.12](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.0.11...v1.0.12) (2020-04-03)
 
 #### Miscellaneous Chores
