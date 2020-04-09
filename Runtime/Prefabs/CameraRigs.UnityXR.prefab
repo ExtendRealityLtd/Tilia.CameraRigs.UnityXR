@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 4596733671386802138}
   - component: {fileID: 9217742964382432402}
   - component: {fileID: 467112237317364664}
+  - component: {fileID: 1910958766640521228}
   m_Layer: 0
   m_Name: RightHandAnchor
   m_TagString: Untagged
@@ -186,6 +187,21 @@ MonoBehaviour:
   isEstimating: 1
   velocityAverageFrames: 5
   angularVelocityAverageFrames: 10
+--- !u!114 &1910958766640521228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351350362042343500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c715c2bacbf81914bbb8517cd2f9d80b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  intensity: 1
+  node: 5
+  duration: 0.005
 --- !u!1 &3802095207536524125
 GameObject:
   m_ObjectHideFlags: 0
@@ -197,6 +213,7 @@ GameObject:
   - component: {fileID: 4294790287048619111}
   - component: {fileID: 5635746745717201990}
   - component: {fileID: 3184466790076318145}
+  - component: {fileID: 6595762748045962028}
   m_Layer: 0
   m_Name: LeftHandAnchor
   m_TagString: Untagged
@@ -253,6 +270,21 @@ MonoBehaviour:
   isEstimating: 1
   velocityAverageFrames: 5
   angularVelocityAverageFrames: 10
+--- !u!114 &6595762748045962028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3802095207536524125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c715c2bacbf81914bbb8517cd2f9d80b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  intensity: 1
+  node: 4
+  duration: 0.005
 --- !u!1 &6707005887722074733
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,7 +350,10 @@ MonoBehaviour:
   headset: {fileID: 922460200594708716}
   headsetCamera: {fileID: 3904199790168431191}
   headsetVelocityTracker: {fileID: 5927244289758819085}
+  supplementHeadsetCameras: {fileID: 0}
   leftController: {fileID: 3802095207536524125}
   leftControllerVelocityTracker: {fileID: 3184466790076318145}
+  leftControllerHapticProcess: {fileID: 6595762748045962028}
   rightController: {fileID: 1351350362042343500}
   rightControllerVelocityTracker: {fileID: 467112237317364664}
+  rightControllerHapticProcess: {fileID: 1910958766640521228}
