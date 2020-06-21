@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.7](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.1.6...v1.1.7) (2020-06-21)
+
+#### Bug Fixes
+
+* **Documentation:** apply style guidelines ([eda442a](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/commit/eda442a3a17861f4ccd4da6a32b7395378b6cd7f))
+  > The guide has had the style guidelines applied to it to make it more consistent.
+
 ### [1.1.6](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.1.5...v1.1.6) (2020-06-08)
 
 #### Miscellaneous Chores
