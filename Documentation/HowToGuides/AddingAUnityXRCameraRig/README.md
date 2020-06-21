@@ -8,13 +8,11 @@
 
 ## Introduction
 
-The UnityXR CameraRig prefab provides a camera that tracks the HMD rotation and position along with any available XR controllers.
-
-The outcome of this How-To Guide is to learn how to add the UnityXR CameraRig prefab to the scene and configure it for the tracking space type you require.
+The `CameraRigs.UnityXR` prefab provides a camera that tracks the HMD rotation and position along with any available XR controllers. This utilizes the underlying [Unity] provided functionality for accessing the connected hardware.
 
 ## Prerequisites
 
-* [Install the Tilia.CameraRigs.UnityXR] package dependency in to your [Unity] project.
+* [Install the Tilia.CameraRigs.UnityXR] package dependency in to your Unity project.
 
 ## Let's Start
 
@@ -26,7 +24,7 @@ Expand the `Tilia CameraRigs UnityXR` Package directory in the Unity Project win
 
 ### Step 2
 
-Delete the `Main Camera` GameObject from the Unity Hierarchy window as the `CameraRigs.UnityXR` prefab contains a `Main Camera` for the Scene.
+Delete the `Main Camera` GameObject from the Unity Hierarchy window as the `CameraRigs.UnityXR` prefab contains a Main Camera for the Scene.
 
 ### Step 3
 
