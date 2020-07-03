@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.1.7...v1.2.0) (2020-07-03)
+
+#### Features
+
+* **API:** add auto-generated API documentation ([52bd975](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/commit/52bd97538e928b35ecd0c835120590f3a31aee4f))
+  > The API documentation is auto generated with docfx and converted to markdown via turndown in a custom nodejs script.
+
+#### Bug Fixes
+
+* **package.json:** add docfx.json file ([476c316](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/commit/476c316fe28545d763f555ec39db75c6812c2fea))
+  > The docfx.json file was missing from the package.json causing the build process to fail. It has now been added.
+
 ### [1.1.7](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.1.6...v1.1.7) (2020-06-21)
 
 #### Bug Fixes
