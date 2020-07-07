@@ -14,6 +14,7 @@ Provides a way to configure settings within the Unity Engine in XR namespace.
   * [OnAfterLockPhysicsUpdateRateToRenderFrequencyChange()]
   * [OnAfterTrackingSpaceTypeChange()]
   * [OnEnable()]
+  * [SetTrackingSpaceType(Int32)]
   * [Update()]
   * [UpdateFixedDeltaTime()]
   * [UpdateTrackingSpaceType()]
@@ -39,7 +40,7 @@ public class UnityXRConfigurator : MonoBehaviour
 
 #### LockPhysicsUpdateRateToRenderFrequency
 
-Automatically set the Unity Physics Fixed Timestep value based on the headset render frequency.
+Automatically set the Unity Physics Fixed TimeStep value based on the headset render frequency.
 
 ##### Declaration
 
@@ -87,6 +88,22 @@ protected virtual void OnAfterTrackingSpaceTypeChange()
 protected virtual void OnEnable()
 ```
 
+#### SetTrackingSpaceType(Int32)
+
+Sets [TrackingSpaceType].
+
+##### Declaration
+
+```
+public virtual void SetTrackingSpaceType(int trackingSpaceTypeIndex)
+```
+
+##### Parameters
+
+| Type | Name | Description |
+| --- | --- | --- |
+| System.Int32 | trackingSpaceTypeIndex | The index of the UnityEngine.XR.TrackingSpaceType. |
+
 #### Update()
 
 ##### Declaration
@@ -118,6 +135,7 @@ protected virtual void UpdateTrackingSpaceType()
 [Tilia.CameraRigs.UnityXR]: README.md
 [LockPhysicsUpdateRateToRenderFrequency]: UnityXRConfigurator.md#LockPhysicsUpdateRateToRenderFrequency
 [TrackingSpaceType]: UnityXRConfigurator.md#TrackingSpaceType
+[TrackingSpaceType]: UnityXRConfigurator.md#TrackingSpaceType
 [Inheritance]: #Inheritance
 [Namespace]: #Namespace
 [Syntax]: #Syntax
@@ -128,6 +146,7 @@ protected virtual void UpdateTrackingSpaceType()
 [OnAfterLockPhysicsUpdateRateToRenderFrequencyChange()]: #OnAfterLockPhysicsUpdateRateToRenderFrequencyChange
 [OnAfterTrackingSpaceTypeChange()]: #OnAfterTrackingSpaceTypeChange
 [OnEnable()]: #OnEnable
+[SetTrackingSpaceType(Int32)]: #SetTrackingSpaceTypeInt32
 [Update()]: #Update
 [UpdateFixedDeltaTime()]: #UpdateFixedDeltaTime
 [UpdateTrackingSpaceType()]: #UpdateTrackingSpaceType
