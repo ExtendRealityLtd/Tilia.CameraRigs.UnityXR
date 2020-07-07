@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.2.0...v1.3.0) (2020-07-07)
+
+#### Features
+
+* **Configurator:** add method to change tracking space in UnityEvent ([ddb8598](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/commit/ddb8598f31073f45d0c955a5ea3d8e74eb249f75))
+  > The TrackingSpaceType property can now be changed via a UnityEvent by calling the SetTrackingSpaceType method and passing in the int to represent the Enum value to change to.
+
 ## [1.2.0](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.1.7...v1.2.0) (2020-07-03)
 
 #### Features
