@@ -18,11 +18,20 @@
         [field: DocumentedByXml]
         public TrackingSpaceType TrackingSpaceType { get; set; } = TrackingSpaceType.RoomScale;
         /// <summary>
-        /// Automatically set the Unity Physics Fixed Timestep value based on the headset render frequency.
+        /// Automatically set the Unity Physics Fixed TimeStep value based on the headset render frequency.
         /// </summary>
         [Serialized]
         [field: DocumentedByXml]
         public bool LockPhysicsUpdateRateToRenderFrequency { get; set; } = true;
+
+        /// <summary>
+        /// Sets <see cref="TrackingSpaceType"/>.
+        /// </summary>
+        /// <param name="trackingSpaceTypeIndex">The index of the <see cref="UnityEngine.XR.TrackingSpaceType"/>.</param>
+        public virtual void SetTrackingSpaceType(int trackingSpaceTypeIndex)
+        {
+            TrackingSpaceType = (TrackingSpaceType)Mathf.Clamp(trackingSpaceTypeIndex, 0, System.Enum.GetValues(typeof(TrackingSpaceType)).Length);
+        }
 
         protected virtual void OnEnable()
         {
