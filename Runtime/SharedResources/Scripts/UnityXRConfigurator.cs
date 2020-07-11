@@ -5,6 +5,7 @@
     using Malimbe.XmlDocumentationAttribute;
     using UnityEngine;
     using UnityEngine.XR;
+    using Zinnia.Extension;
 
     /// <summary>
     /// Provides a way to configure settings within the Unity Engine in XR namespace.
@@ -30,7 +31,7 @@
         /// <param name="trackingSpaceTypeIndex">The index of the <see cref="UnityEngine.XR.TrackingSpaceType"/>.</param>
         public virtual void SetTrackingSpaceType(int trackingSpaceTypeIndex)
         {
-            TrackingSpaceType = (TrackingSpaceType)Mathf.Clamp(trackingSpaceTypeIndex, 0, System.Enum.GetValues(typeof(TrackingSpaceType)).Length);
+            TrackingSpaceType = EnumExtensions.GetByIndex<TrackingSpaceType>(trackingSpaceTypeIndex);
         }
 
         protected virtual void OnEnable()
