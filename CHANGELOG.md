@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.3.2](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.3.1...v1.3.2) (2020-07-11)
+
+#### Bug Fixes
+
+* **Configuration:** use extension method to set enum value ([2b0c799](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/commit/2b0c799d71eef01682550b541d2dc97ab39922f6))
+  > The SetTrackingSpaceType method now uses the Zinnia EnumExtensions helper method to set the value of the enum by the index instead of repeating the same logic.
+
 ### [1.3.1](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.3.0...v1.3.1) (2020-07-11)
 
 #### Miscellaneous Chores
