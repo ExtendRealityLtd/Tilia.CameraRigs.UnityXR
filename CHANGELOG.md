@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.4.0](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.3.6...v1.4.0) (2020-10-02)
+
+#### Features
+
+* **Haptics:** add haptic profiles for common haptic output ([ab27846](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/commit/ab278468efc531efefee126075843a03521c3327))
+  > Nine new haptic profiles have been added for common haptic output:
+  > 
+  > * ShortLight - short duration with a light vibration. * ShortMedium - short duration with a medium vibration. * ShortStrong - short duration with a strong vibration. * LongLight - long duration with a light vibration. * LongMedium - long duration with a medium vibration. * LongStrong - long duration with a strong vibration. * ContinuousLight - infinite duration with a light vibration. * ContinuousMedium - infinite duration with a medium vibration. * ContinuousStrong - infinite duration with a strong vibration.
+
 ### [1.3.6](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.3.5...v1.3.6) (2020-08-29)
 
 #### Miscellaneous Chores
