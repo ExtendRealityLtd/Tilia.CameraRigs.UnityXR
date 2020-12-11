@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.4.2](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.4.1...v1.4.2) (2020-12-11)
+
+#### Bug Fixes
+
+* **HowToGuides:** apply document styling guidelines ([f8c5233](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/commit/f8c52333ca6a9043d954bc3866c5477c2219a213))
+  > The document style guidelines have been updated and now have been applied to the guides in this repo.
+
 ### [1.4.1](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.4.0...v1.4.1) (2020-11-01)
 
 #### Miscellaneous Chores
