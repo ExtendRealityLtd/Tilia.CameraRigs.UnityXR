@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.4.4](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.4.3...v1.4.4) (2020-12-13)
+
+#### Bug Fixes
+
+* **Prefab:** update tracked pose driver script reference ([c299fc7](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/commit/c299fc75869418066c09de2875656995dee77c20))
+  > The script reference to the Unity XR TrackedPoseDriver component has been unlinked for some reason. This fix adds the links back in.
+
 ### [1.4.3](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.4.2...v1.4.3) (2020-12-12)
 
 #### Miscellaneous Chores
