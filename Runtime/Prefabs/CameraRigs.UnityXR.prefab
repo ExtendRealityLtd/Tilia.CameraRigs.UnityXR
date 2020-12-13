@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 481301958664380348}
   - component: {fileID: 3904199790168431191}
   - component: {fileID: 8073922421639309864}
-  - component: {fileID: 9204225297068745190}
+  - component: {fileID: 6778621509180730146}
   m_Layer: 0
   m_Name: HeadAnchor
   m_TagString: MainCamera
@@ -141,10 +141,9 @@ Camera:
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
+  m_GateFitMode: 2
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -180,7 +179,7 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 922460200594708716}
   m_Enabled: 1
---- !u!114 &9204225297068745190
+--- !u!114 &6778621509180730146
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -189,11 +188,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 922460200594708716}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a2a9c34df4095f47b9ca8f975175f5b, type: 3}
+  m_Script: {fileID: 1742909100, guid: ed7343f30e3843b3afda8f8b02669cea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Device: 0
-  m_PoseSource: 2
+  m_PoseSource: 3
   m_PoseProviderComponent: {fileID: 0}
   m_TrackingType: 0
   m_UpdateType: 0
@@ -269,7 +268,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4596733671386802138}
-  - component: {fileID: 9217742964382432402}
+  - component: {fileID: 3194917570776222985}
   m_Layer: 0
   m_Name: RightHandAnchor
   m_TagString: Untagged
@@ -291,7 +290,7 @@ Transform:
   m_Father: {fileID: 6250577539179111349}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &9217742964382432402
+--- !u!114 &3194917570776222985
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -300,7 +299,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1351350362042343500}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a2a9c34df4095f47b9ca8f975175f5b, type: 3}
+  m_Script: {fileID: 1742909100, guid: ed7343f30e3843b3afda8f8b02669cea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Device: 1
@@ -861,7 +860,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4294790287048619111}
-  - component: {fileID: 5635746745717201990}
+  - component: {fileID: 1850819188307584090}
   m_Layer: 0
   m_Name: LeftHandAnchor
   m_TagString: Untagged
@@ -883,7 +882,7 @@ Transform:
   m_Father: {fileID: 6250577539179111349}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5635746745717201990
+--- !u!114 &1850819188307584090
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -892,7 +891,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3802095207536524125}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a2a9c34df4095f47b9ca8f975175f5b, type: 3}
+  m_Script: {fileID: 1742909100, guid: ed7343f30e3843b3afda8f8b02669cea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Device: 1
