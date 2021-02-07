@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.4.9](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.4.8...v1.4.9) (2021-02-07)
+
+#### Bug Fixes
+
+* **prefabs:** track center eye source for head anchor ([65d42d8](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/commit/65d42d84b20d98170541d6dabcd061726ac94dd2))
+  > The HeadAnchor was originally tracking the Pose Source of Head, but Unity now warns that if the Pose Source is attached to a camera and not tracking `Center Eye - HMD Reference` that there may be tracking issues. So it has been switched over to reduce the possibility of issues with tracking.
+
 ### [1.4.8](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.4.7...v1.4.8) (2021-02-04)
 
 #### Miscellaneous Chores
