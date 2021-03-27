@@ -8,7 +8,9 @@
 
 ## Introduction
 
-The `CameraRigs.UnityXR` prefab provides a spatial camera rig and controller setup utilizing the default UnityXR framework. This prefab can be included in a [Unity] software project via the [Unity Package Manager].
+The `CameraRigs.UnityXR` prefab provides a spatial camera rig and controller setup utilizing the legacy XR management system in the Unity software. This prefab can be included in a [Unity] software project via the [Unity Package Manager].
+
+> The legacy XR management system was deprecated in Unity `2019.3.0f1`, please use the [Tilia.CameraRigs.XRPluginFramework.Unity] package for support with the new Unity XR Plugin Framework.
 
 ## Let's Start
 
@@ -79,3 +81,4 @@ The package will now also show up in the Unity Package Manager UI. From then on 
 [Version-Release]: https://img.shields.io/github/release/ExtendRealityLtd/Tilia.CameraRigs.UnityXR.svg
 [Releases]: ../../../../../releases
 [Latest-Release]: ../../../../../releases/latest
+[Tilia.CameraRigs.XRPluginFramework.Unity]: https://github.com/ExtendRealityLtd/Tilia.CameraRigs.XRPluginFramework.Unity
