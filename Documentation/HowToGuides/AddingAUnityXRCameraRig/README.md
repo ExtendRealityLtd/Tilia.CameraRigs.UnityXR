@@ -10,6 +10,8 @@
 
 The `CameraRigs.UnityXR` prefab provides a camera that tracks the HMD rotation and position along with any available XR controllers. This utilizes the underlying [Unity] provided functionality for accessing the connected hardware.
 
+> The legacy XR management system was deprecated in Unity `2019.3.0f1`, please use the [Tilia.CameraRigs.XRPluginFramework.Unity] package for support with the new Unity XR Plugin Framework.
+
 ## Prerequisites
 
 * [Install the Tilia.CameraRigs.UnityXR] package dependency in to your Unity project.
@@ -44,3 +46,4 @@ Now you have a UnityXR CameraRig in your scene. If you play the Unity scene you 
 
 [Install the Tilia.CameraRigs.UnityXR]: ../Installation/README.md
 [Unity]: https://unity3d.com/
+[Tilia.CameraRigs.XRPluginFramework.Unity]: https://github.com/ExtendRealityLtd/Tilia.CameraRigs.XRPluginFramework.Unity
