@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.4.13](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.4.12...v1.4.13) (2021-03-31)
+
+#### Bug Fixes
+
+* **docs:** update docs to mention deprecation of Unity legacy XR system ([f246ea4](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/commit/f246ea455b98621bd456cee5d8c7e7340189e31c))
+  > Unity deprecated the XR system in 2019.3 in favour of the new XR Plugin Framework system. The docs have been updated to reflect this and to point to another repo that has a camera rig that supports this newer system.
+
 ### [1.4.12](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.4.11...v1.4.12) (2021-03-29)
 
 #### Miscellaneous Chores
