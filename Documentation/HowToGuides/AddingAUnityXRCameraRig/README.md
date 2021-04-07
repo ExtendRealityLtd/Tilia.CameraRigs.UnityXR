@@ -20,9 +20,7 @@ The `CameraRigs.UnityXR` prefab provides a camera that tracks the HMD rotation a
 
 ### Step 1
 
-Expand the `Tilia CameraRigs UnityXR` package directory in the Unity Project window and select then `Packages -> Tilia CameraRigs UnityXR -> Runtime -> Prefabs` directory then drag and drop the `CameraRigs.UnityXR` prefab into the Unity Hierarchy window.
-
-![Adding Prefab To Scene](assets/images/AddingPrefabToScene.png)
+Add a `CameraRigs.UnityXR` prefab to the Unity project hierarchy by selecting `GameObject -> Tilia -> Prefabs -> CameraRigs -> CameraRigs.UnityXR` from the Unity main top menu.
 
 ### Step 2
 
