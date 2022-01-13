@@ -108,6 +108,8 @@ GameObject:
   - component: {fileID: 3904199790168431191}
   - component: {fileID: 8073922421639309864}
   - component: {fileID: 6778621509180730146}
+  - component: {fileID: 1579268070374954846}
+  - component: {fileID: 8459413459688735757}
   m_Layer: 0
   m_Name: HeadAnchor
   m_TagString: MainCamera
@@ -197,6 +199,47 @@ MonoBehaviour:
   m_TrackingType: 0
   m_UpdateType: 0
   m_UseRelativeTransform: 0
+--- !u!114 &1579268070374954846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922460200594708716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26195b592fd7b154295e0d3d2965afa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TrackingBegun:
+    m_PersistentCalls:
+      m_Calls: []
+  ConnectionStatusChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  TrackingTypeChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  BatteryChargeStatusChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  nodeType: 3
+--- !u!114 &8459413459688735757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922460200594708716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a11862926720f544fb5d904995c2b57b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source:
+    field: {fileID: 1579268070374954846}
+  onlyProcessOnActiveAndEnabled: 1
+  interval: 0.25
 --- !u!1 &1133523771844855127
 GameObject:
   m_ObjectHideFlags: 0
@@ -269,6 +312,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4596733671386802138}
   - component: {fileID: 3194917570776222985}
+  - component: {fileID: 333226132958686735}
+  - component: {fileID: 3105703308570972790}
   m_Layer: 0
   m_Name: RightHandAnchor
   m_TagString: Untagged
@@ -308,6 +353,47 @@ MonoBehaviour:
   m_TrackingType: 0
   m_UpdateType: 0
   m_UseRelativeTransform: 0
+--- !u!114 &333226132958686735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351350362042343500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26195b592fd7b154295e0d3d2965afa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TrackingBegun:
+    m_PersistentCalls:
+      m_Calls: []
+  ConnectionStatusChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  TrackingTypeChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  BatteryChargeStatusChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  nodeType: 5
+--- !u!114 &3105703308570972790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351350362042343500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a11862926720f544fb5d904995c2b57b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source:
+    field: {fileID: 333226132958686735}
+  onlyProcessOnActiveAndEnabled: 1
+  interval: 0.25
 --- !u!1 &1601966238253703875
 GameObject:
   m_ObjectHideFlags: 0
@@ -370,6 +456,52 @@ MonoBehaviour:
   intensity: 0.15
   node: 5
   duration: 0.005
+--- !u!1 &2133854006076104616
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4704062962229177216}
+  - component: {fileID: 3610771784536213690}
+  m_Layer: 0
+  m_Name: MomentProcessor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4704062962229177216
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2133854006076104616}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6612597725703812162}
+  m_Father: {fileID: 6250577539179111349}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3610771784536213690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2133854006076104616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c0eab237e25807459af1c5caf4d3d33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  processMoment: 3
+  processes: {fileID: 712732527542787942}
 --- !u!1 &2293735143216331159
 GameObject:
   m_ObjectHideFlags: 0
@@ -618,6 +750,82 @@ MonoBehaviour:
   intensity: 0.15
   node: 4
   duration: 0.005
+--- !u!1 &3351416633964134423
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6612597725703812162}
+  - component: {fileID: 712732527542787942}
+  m_Layer: 0
+  m_Name: ListContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6612597725703812162
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3351416633964134423}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4704062962229177216}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &712732527542787942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3351416633964134423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15a9c53f0e146454cb669c38817bd5b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Obtained:
+    m_PersistentCalls:
+      m_Calls: []
+  Found:
+    m_PersistentCalls:
+      m_Calls: []
+  NotFound:
+    m_PersistentCalls:
+      m_Calls: []
+  IsEmpty:
+    m_PersistentCalls:
+      m_Calls: []
+  IsPopulated:
+    m_PersistentCalls:
+      m_Calls: []
+  Populated:
+    m_PersistentCalls:
+      m_Calls: []
+  Added:
+    m_PersistentCalls:
+      m_Calls: []
+  Removed:
+    m_PersistentCalls:
+      m_Calls: []
+  Emptied:
+    m_PersistentCalls:
+      m_Calls: []
+  currentIndex: 0
+  elements:
+  - {fileID: 5995425104727812049}
+  - {fileID: 8459413459688735757}
+  - {fileID: 496545317774832904}
+  - {fileID: 3105703308570972790}
 --- !u!1 &3406371639979523009
 GameObject:
   m_ObjectHideFlags: 0
@@ -861,6 +1069,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4294790287048619111}
   - component: {fileID: 1850819188307584090}
+  - component: {fileID: 7801932568729669707}
+  - component: {fileID: 496545317774832904}
   m_Layer: 0
   m_Name: LeftHandAnchor
   m_TagString: Untagged
@@ -900,6 +1110,47 @@ MonoBehaviour:
   m_TrackingType: 0
   m_UpdateType: 0
   m_UseRelativeTransform: 0
+--- !u!114 &7801932568729669707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3802095207536524125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26195b592fd7b154295e0d3d2965afa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TrackingBegun:
+    m_PersistentCalls:
+      m_Calls: []
+  ConnectionStatusChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  TrackingTypeChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  BatteryChargeStatusChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  nodeType: 4
+--- !u!114 &496545317774832904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3802095207536524125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a11862926720f544fb5d904995c2b57b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source:
+    field: {fileID: 7801932568729669707}
+  onlyProcessOnActiveAndEnabled: 1
+  interval: 0.25
 --- !u!1 &4319714544062664181
 GameObject:
   m_ObjectHideFlags: 0
@@ -1225,6 +1476,8 @@ GameObject:
   - component: {fileID: 6250577539179111349}
   - component: {fileID: 6500219864934193526}
   - component: {fileID: 3013476052725209540}
+  - component: {fileID: 8649737164339848103}
+  - component: {fileID: 5995425104727812049}
   m_Layer: 0
   m_Name: CameraRigs.UnityXR
   m_TagString: Untagged
@@ -1248,6 +1501,7 @@ Transform:
   - {fileID: 4596733671386802138}
   - {fileID: 1611304897310937274}
   - {fileID: 116809909245343863}
+  - {fileID: 4704062962229177216}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1282,14 +1536,51 @@ MonoBehaviour:
   headsetCamera: {fileID: 3904199790168431191}
   headsetVelocityTracker: {fileID: 3402107918225628765}
   supplementHeadsetCameras: {fileID: 0}
+  headsetDeviceDetails: {fileID: 1579268070374954846}
+  dominantController: {fileID: 8649737164339848103}
   leftController: {fileID: 3802095207536524125}
   leftControllerVelocityTracker: {fileID: 3091238550019444664}
   leftControllerHapticProcess: {fileID: 8589945936993354417}
   leftControllerHapticProfiles: {fileID: 8369763671209325646}
+  leftControllerDeviceDetails: {fileID: 7801932568729669707}
   rightController: {fileID: 1351350362042343500}
   rightControllerVelocityTracker: {fileID: 6048965503992365318}
   rightControllerHapticProcess: {fileID: 4086013424135816009}
   rightControllerHapticProfiles: {fileID: 8810069713607435762}
+  rightControllerDeviceDetails: {fileID: 333226132958686735}
+--- !u!114 &8649737164339848103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6707005887722074733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7512583a373897b4aa8971c27e3264cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftController: {fileID: 7801932568729669707}
+  rightController: {fileID: 333226132958686735}
+  IsChanging:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &5995425104727812049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6707005887722074733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a11862926720f544fb5d904995c2b57b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source:
+    field: {fileID: 8649737164339848103}
+  onlyProcessOnActiveAndEnabled: 1
+  interval: 0.25
 --- !u!1 &7281102756684691949
 GameObject:
   m_ObjectHideFlags: 0
@@ -1342,46 +1633,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dea9bd4fa4b5cc4b9b36a77382cb3b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Obtained:
+    m_PersistentCalls:
+      m_Calls: []
   Found:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Haptics.Collection.HapticProcessObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   NotFound:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Haptics.Collection.HapticProcessObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   IsEmpty:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   IsPopulated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   Populated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Haptics.Collection.HapticProcessObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Added:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Haptics.Collection.HapticProcessObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Removed:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Haptics.Collection.HapticProcessObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Emptied:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Haptics.Collection.HapticProcessObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   currentIndex: 0
   elements:
   - {fileID: 3108501296213660515}
@@ -1507,46 +1785,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dea9bd4fa4b5cc4b9b36a77382cb3b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Obtained:
+    m_PersistentCalls:
+      m_Calls: []
   Found:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Haptics.Collection.HapticProcessObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   NotFound:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Haptics.Collection.HapticProcessObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   IsEmpty:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   IsPopulated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   Populated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Haptics.Collection.HapticProcessObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Added:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Haptics.Collection.HapticProcessObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Removed:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Haptics.Collection.HapticProcessObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Emptied:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Haptics.Collection.HapticProcessObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   currentIndex: 0
   elements:
   - {fileID: 5210086586808573936}
