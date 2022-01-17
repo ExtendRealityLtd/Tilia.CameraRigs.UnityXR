@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.6.0](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.5.13...v1.6.0) (2022-01-17)
+
+#### Features
+
+* **prefab:** add device details about headset and controllers ([12d4c12](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/commit/12d4c12f938c4f2703f34084a21ca94603f93f93))
+  > The new DeviceDetailsRecord has been extended into the UnityXRNodeRecord that provide information about a UnityXR Node device and this is now stored on the prefab so it is easily available at runtime.
+  > 
+  > The DominantControllerObserver has also been added to the prefab to make it easier to determine the current dominant controller.
+
 ### [1.5.13](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.5.12...v1.5.13) (2022-01-17)
 
 #### Miscellaneous Chores
