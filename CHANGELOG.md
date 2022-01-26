@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.6.0...v1.7.0) (2022-01-26)
+
+#### Features
+
+* **UnityXRNodeRecord:** add battery status for headset ([54715a1](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/commit/54715a1fc10262c1efd5f0f786c7dbbb81aefc8f))
+  > The battery status now reports the headset battery status from the default SystemInfo class.
+
 ## [1.6.0](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.5.13...v1.6.0) (2022-01-17)
 
 #### Features
