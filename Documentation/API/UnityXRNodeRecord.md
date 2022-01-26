@@ -120,7 +120,7 @@ public override string Model { get; protected set; }
 
 #### NodeType
 
-The source property to match against.
+The Node Type for the record.
 
 ##### Declaration
 

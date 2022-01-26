@@ -14,7 +14,7 @@
     public class UnityXRNodeRecord : DeviceDetailsRecord
     {
         /// <summary>
-        /// The source property to match against.
+        /// The Node Type for the record.
         /// </summary>
         [Serialized]
         [field: DocumentedByXml]
@@ -23,10 +23,7 @@
         /// <inheritdoc/>
         public override XRNode XRNodeType
         {
-            get
-            {
-                return NodeType;
-            }
+            get { return NodeType; }
             protected set { NodeType = value; }
         }
         /// <inheritdoc/>
@@ -90,7 +87,7 @@
             protected set => throw new System.NotImplementedException();
         }
         /// <inheritdoc/>
-        public override BatteryStatus BatteryChargeStatus { get => BatteryStatus.Unknown; protected set => throw new System.NotImplementedException(); }
+        public override BatteryStatus BatteryChargeStatus { get => NodeType == XRNode.Head ? SystemInfo.batteryStatus : BatteryStatus.Unknown; protected set => throw new System.NotImplementedException(); }
 
         /// <summary>
         /// The last known battery charge status.
