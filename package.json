@@ -1,7 +1,7 @@
 {
     "name": "io.extendreality.tilia.camerarigs.unityxr",
     "displayName": "Tilia CameraRigs UnityXR",
-    "version": "1.7.0",
+    "version": "1.7.1",
     "description": "A camera rig prefab utilizing the legacy XR management system for the Unity software.",
     "unity": "2018.3",
     "unityRelease": "10f1",
