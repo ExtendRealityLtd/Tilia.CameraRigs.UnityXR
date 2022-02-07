@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.0](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.7.1...v1.8.0) (2022-02-07)
+
+#### Features
+
+* **UnityXRNodeRecord:** simplify record by extending base class ([8d5cccb](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/commit/8d5cccbc02e424a3f67b2be534b5c6aa88321fcd))
+  > The UnityXRNodeRecord now extends the BaseDeviceDetailsRecord which handles many of the core fuinctions so this class can be simplified.
+
 ### [1.7.1](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.7.0...v1.7.1) (2022-02-05)
 
 #### Miscellaneous Chores
