@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.0](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.8.1...v1.9.0) (2022-03-02)
+
+#### Features
+
+* **package.json:** add information urls to package ([2727539](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/commit/2727539a636e28b45105e25b3d2557d81519b543))
+  > The changelog, documentation and license url has been added to the package.json as these are used within the Unity package manager.
+
 ### [1.8.1](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v1.8.0...v1.8.1) (2022-02-14)
 
 #### Miscellaneous Chores
