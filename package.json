@@ -3,6 +3,9 @@
     "displayName": "Tilia CameraRigs UnityXR",
     "version": "1.8.1",
     "description": "A camera rig prefab utilizing the legacy XR management system for the Unity software.",
+    "changelogUrl": "https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/blob/master/CHANGELOG.md",
+    "documentationUrl": "https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/tree/master/Documentation",
+    "licensesUrl": "https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/blob/master/LICENSE.md",
     "unity": "2018.3",
     "unityRelease": "10f1",
     "keywords": [
