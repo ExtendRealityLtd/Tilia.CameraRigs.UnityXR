@@ -1,8 +1,5 @@
 ﻿namespace Tilia.CameraRigs.UnityXR
 {
-    using Malimbe.MemberChangeMethod;
-    using Malimbe.PropertySerializationAttribute;
-    using Malimbe.XmlDocumentationAttribute;
     using UnityEngine;
     using UnityEngine.XR;
     using Zinnia.Extension;
@@ -12,18 +9,48 @@
     /// </summary>
     public class UnityXRConfigurator : MonoBehaviour
     {
+        [Tooltip("Represents the type of physical space available for XR.")]
+        [SerializeField]
+        private TrackingSpaceType trackingSpaceType = TrackingSpaceType.RoomScale;
         /// <summary>
         /// Represents the type of physical space available for XR.
         /// </summary>
-        [Serialized]
-        [field: DocumentedByXml]
-        public TrackingSpaceType TrackingSpaceType { get; set; } = TrackingSpaceType.RoomScale;
+        public TrackingSpaceType TrackingSpaceType
+        {
+            get
+            {
+                return trackingSpaceType;
+            }
+            set
+            {
+                trackingSpaceType = value;
+                if (this.IsMemberChangeAllowed())
+                {
+                    OnAfterTrackingSpaceTypeChange();
+                }
+            }
+        }
+        [Tooltip("Automatically set the Unity Physics Fixed TimeStep value based on the headset render frequency.")]
+        [SerializeField]
+        private bool lockPhysicsUpdateRateToRenderFrequency = true;
         /// <summary>
         /// Automatically set the Unity Physics Fixed TimeStep value based on the headset render frequency.
         /// </summary>
-        [Serialized]
-        [field: DocumentedByXml]
-        public bool LockPhysicsUpdateRateToRenderFrequency { get; set; } = true;
+        public bool LockPhysicsUpdateRateToRenderFrequency
+        {
+            get
+            {
+                return lockPhysicsUpdateRateToRenderFrequency;
+            }
+            set
+            {
+                lockPhysicsUpdateRateToRenderFrequency = value;
+                if (this.IsMemberChangeAllowed())
+                {
+                    OnAfterLockPhysicsUpdateRateToRenderFrequencyChange();
+                }
+            }
+        }
 
         /// <summary>
         /// Sets <see cref="TrackingSpaceType"/>.
@@ -68,7 +95,6 @@
         /// <summary>
         /// Called after <see cref="TrackingSpaceType"/> has been changed.
         /// </summary>
-        [CalledAfterChangeOf(nameof(TrackingSpaceType))]
         protected virtual void OnAfterTrackingSpaceTypeChange()
         {
             UpdateTrackingSpaceType();
@@ -77,7 +103,6 @@
         /// <summary>
         /// Called after <see cref="LockPhysicsUpdateRateToRenderFrequency"/> has been changed.
         /// </summary>
-        [CalledAfterChangeOf(nameof(LockPhysicsUpdateRateToRenderFrequency))]
         protected virtual void OnAfterLockPhysicsUpdateRateToRenderFrequencyChange()
         {
             UpdateFixedDeltaTime();
