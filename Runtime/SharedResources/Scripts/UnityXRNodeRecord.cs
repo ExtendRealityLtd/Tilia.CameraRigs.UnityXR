@@ -1,7 +1,6 @@
 ﻿namespace Tilia.CameraRigs.UnityXR
 {
-    using Malimbe.PropertySerializationAttribute;
-    using Malimbe.XmlDocumentationAttribute;
+    using UnityEngine;
     using UnityEngine.XR;
     using Zinnia.Extension;
     using Zinnia.Tracking.CameraRig;
@@ -11,12 +10,23 @@
     /// </summary>
     public class UnityXRNodeRecord : BaseDeviceDetailsRecord
     {
+        [Tooltip("The Node Type for the record.")]
+        [SerializeField]
+        private XRNode nodeType;
         /// <summary>
         /// The Node Type for the record.
         /// </summary>
-        [Serialized]
-        [field: DocumentedByXml]
-        public XRNode NodeType { get; set; }
+        public XRNode NodeType
+        {
+            get
+            {
+                return nodeType;
+            }
+            set
+            {
+                nodeType = value;
+            }
+        }
 
         /// <inheritdoc/>
         public override XRNode XRNodeType { get { return NodeType; } protected set { NodeType = value; } }
