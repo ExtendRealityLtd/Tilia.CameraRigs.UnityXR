@@ -8,6 +8,7 @@ Provides the description for a UnityXR CameraRig node element.
 * [Namespace]
 * [Syntax]
 * [Properties]
+  * [HasPassThroughCamera]
   * [NodeType]
   * [Priority]
   * [XRNodeType]
@@ -32,6 +33,14 @@ public class UnityXRNodeRecord : BaseDeviceDetailsRecord
 ```
 
 ### Properties
+
+#### HasPassThroughCamera
+
+##### Declaration
+
+```
+public override bool HasPassThroughCamera { get; protected set; }
+```
 
 #### NodeType
 
@@ -83,6 +92,7 @@ public virtual void SetNodeType(int index)
 [Namespace]: #Namespace
 [Syntax]: #Syntax
 [Properties]: #Properties
+[HasPassThroughCamera]: #HasPassThroughCamera
 [NodeType]: #NodeType
 [Priority]: #Priority
 [XRNodeType]: #XRNodeType
