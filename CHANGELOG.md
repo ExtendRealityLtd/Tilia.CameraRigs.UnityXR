@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v2.0.7...v2.1.0) (2023-03-11)
+
+#### Features
+
+* **DeviceDetails:** add defaults for passthrough camera details ([b075822](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/commit/b0758221965ceeb3956210b99c4a3e8d39e3a752))
+  > The DeviceDetailsRecord now supports passthrough camera options and therefore anything that derrives from that needs to implement the base interfaces even if they don't support camera passthrough yet.
+
 ### [2.0.7](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/compare/v2.0.6...v2.0.7) (2023-02-22)
 
 #### Miscellaneous Chores
